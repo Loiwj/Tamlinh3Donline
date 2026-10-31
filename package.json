@@ -1,0 +1,15 @@
+{
+  "name": "chua-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Game web 3D mô phỏng không gian chùa Việt Nam nhiều người chơi (Three.js + Colyseus)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:server && npm run build:client",
+    "start:server": "npm run start --prefix server"
+  }
+}

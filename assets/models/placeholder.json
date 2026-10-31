@@ -1,0 +1,11 @@
+{
+  "info": "Placeholder metadata for custom GLTF/GLB 3D assets. Currently all temple models are generated procedurally in client/src/scene/ and client/src/player/ with 100% original CC0 low-poly geometry.",
+  "models": [
+    "buddha_statue.glb",
+    "incense_burner.glb",
+    "tam_quan_gate.glb",
+    "bodhi_tree.glb",
+    "temple_bell.glb",
+    "character_monk.glb"
+  ]
+}
